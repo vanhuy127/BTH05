@@ -1,0 +1,358 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 1300px;
+    background-image: url("images/bg-top.jpg"), url("images/bg-bottom.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size:contain;
+    background-position: top center, bottom center;
+    background-color: #f2f2f2;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    width: 1030px;
+    height: 50px;
+    margin: 0 auto;
+}
+.logo-space{
+    width: 150px;
+}
+.nav-list{
+    margin-top: 15px;
+    text-align: center;
+    margin: auto 40px;
+    
+}
+.nav-list a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-list li{
+    display: inline-block;
+    padding: 0 20px;
+    border-left: 1px solid #fff;
+    font-size: 15px;
+}
+.nav-list li:first-child{
+    padding-left: 0;
+    border-left: none;
+}
+.nav-list li:last-child {
+    padding-right: 0;
+}
+.item-custom{
+    border-right: 1px solid #fff;
+}
+.nav-list li:hover{
+    opacity: 0.7;
+}
+.main{
+    width: 990px;
+    height: 260px;
+    background-color: #112141;
+    margin: 350px auto 0 auto;
+    display: flex;
+    position: relative;
+    padding: 3px;
+}
+.main-left{
+    width: 240px;
+}
+#tai-game{
+    width: 240px;
+    height: 125px;
+}
+#dang-ky{
+    display: block;
+    position: relative;
+    width: 238px;
+    height: 62px;
+    background-image: url("images/buttons-left.png");
+
+}
+#dang-ky:hover{
+    background-position: -248px 0;
+}
+#nap-the{
+    display: block;
+    position: relative;
+    width: 238px;
+    height: 62px;
+    background-image: url("images/buttons-left.png");
+    background-position: 0 -67px;
+    margin-top: 3px;
+}
+#nap-the:hover{
+    background-position: -248px -67px;
+}
+.main-center{
+    width: 490px;
+    height: 255px;
+    background-image: url("images/slider-01.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2px 5px 2px 5px;
+}
+.main-right{
+    width: 235px;   
+}
+.main-right-top{
+    display: grid;
+    grid-template-columns: 110px 110px;
+    grid-template-rows: 110px 110px;
+    gap: 5px;
+    position: relative;
+    left: 13px;
+}
+#ky-bao{
+    display: block;
+    width: 110px;
+    height: 110px;
+    background-image: url("images/buttons-right.png");
+}
+#ho-tro{
+    display: block;
+    width: 133px;
+    height: 110px;
+    background-image: url("images/buttons-right.png");
+    background-position: -120px 0;
+    
+}
+#nap-vang{
+    display: block;
+    width: 110px;
+    height: 110px;
+    background-image: url("images/buttons-right.png");
+    background-position: 0 110px;
+}
+#nap-vip{
+    display: block;
+    width: 110px;
+    height: 110px;
+    background-image: url("images/buttons-right.png");
+    background-position: -120px 110px;
+}
+.main-right-bottom{
+    display: block;
+    background-image: url(images/hotline.png);
+    width: 235px;
+    height: 30px;
+    margin-top: 3px;
+}
+.item-deco{
+    width: 106px;
+    height: 236px;
+    background-image: url("images/long-den.png");
+    position: absolute;
+    right: 960px;
+}
+.news{
+    width: 990px;
+    margin: 3px auto;
+    display: flex;
+}
+.news-left{
+    height: 750px;
+}
+.sub-btn{
+    display: flex;
+    width: 745px;
+}
+#nhan-qua{
+    width: 245px;
+    height: 83px;
+    background-image: url("images/cuuamlenh-vip-giftcode.png");
+    display: block;
+}
+#vinh-danh{
+    width: 245px;
+    height: 83px;
+    background-image: url("images/cuuamlenh-vip-giftcode.png");
+    display: block;
+    background-position: -247px 0;
+}
+#giftcode{
+    width: 245px;
+    height: 83px;
+    background-image: url("images/cuuamlenh-vip-giftcode.png");
+    display: block;
+    background-position: -497px 0;
+}
+.link-right{
+    width: 245px;
+    background-color: #112141;
+    padding: 8px;
+    height: 330px;
+}
+#bao-dien{
+    width: 228px;
+    height: 55px;
+    background-image: url("images/links-right.png");
+    display: block;
+    margin-bottom: 8px;
+}
+#mon-phai{
+    width: 228px;
+    height: 55px;
+    background-image: url("images/links-right.png");
+    display: block;
+    margin-bottom: 8px;
+    background-position: 0 -57px;
+}
+#tan-thu{
+    width: 228px;
+    height: 55px;
+    background-image: url("images/links-right.png");
+    display: block;
+    margin-bottom: 8px;
+    background-position: 0 -117px;
+
+}
+#vo-hoc{
+    width: 228px;
+    height: 55px;
+    background-image: url("images/links-right.png");
+    display: block;
+    margin-bottom: 8px;
+    background-position: 0 -170px;
+
+}
+#pet{
+    width: 228px;
+    height: 55px;
+    background-image: url("images/links-right.png");
+    display: block;
+    background-position: 0 56px;
+}
+.news-content{
+    width: 735px;
+    height: 60px;
+    background-image: url("images/news-header-bg.png");
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.news-nav{
+    width: 735px;
+    height: 60px;
+}
+.news-nav>ul{
+    margin-left: 20px;
+}
+.news-nav>ul>li{
+    display: inline-block;
+    line-height: 60px;
+    margin-right: 25px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.news-nav ul a{
+    text-decoration: none;
+    color: #C79665;
+
+}
+.news-nav ul a:hover{
+    opacity: 0.7;
+}
+.news-main{
+    background-color: #fff;
+    width: 735px;
+    min-height: 300px;
+    border: 5px #1F3252 solid;
+    padding: 10px;
+}
+.news-item{
+    width: 660px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.news-img1{
+    background-image: url("images/news-dang-nhap.jpg");
+    width: 150px;
+    height: 150px;
+    border: 5px solid #B69B74;
+}
+.news-main-content{
+    width: 510px;
+    padding-left: 10px;
+}
+.news-main-content-tittle{
+    font-size: 20px;
+    border-left: 5px solid red;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.news-main-content a{
+    color: red;
+}
+.news-main-content-date{
+    font-size: 15px;
+    font-style: italic;
+    color: #ccc;
+    margin-top: 3px;
+}
+
+.news-main-content-subcontent{
+    color: #696969;
+    margin-top: 3px;
+}
+.news-img2{
+    background-image: url("images/news-su-kien.jpg");
+    width: 150px;
+    height: 150px;
+    border: 5px solid #B69B74;
+}
+.news-img3{
+    background-image: url("images/news-event-thang3.png");
+    width: 150px;
+    height: 150px;
+    border: 5px solid #B69B74;
+    background-size: contain;
+}
+.button{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.button button{
+    width: 80px;
+    height: 50px;
+    background-color: #112141;
+    border: #ccc 4px solid;
+    color: #ccc;
+    padding: 3px;
+    font-size: 11px;
+    margin-left: 10px;
+}
+.button button:hover{
+    cursor: pointer;
+}
+
+.footer{
+    width: 990px;
+    height: 200px;
+    padding-top: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer-sup{
+    width: 200px;
+    display: flex;
+    margin: auto;
+    
+}
+.footer a{
+    color: black;
+}
+.footer p{
+    text-align: center;
+}
+.footer img{
+    position: absolute;
+    bottom: 80px;
+}
